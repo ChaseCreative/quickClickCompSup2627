@@ -1605,10 +1605,10 @@ var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIn
       var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIndx][0] + " " + irregComp[ranIrregCompIndx][0] + " " + myLatinSentence.ablSing();
     } if (subject[ranSubjectIndx][2] == "f") {
 //var latin = myLatinSentence.presThirdSing();
-    var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIndx][0] + " " + irregComp[ranIrregCompIndx][0] + "  " + ablative[ranAblativeIndx][0];
+    var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIndx][0] + " " + irregComp[ranIrregCompIndx][0] + "  " + myLatinSentence.ablSing();
     } if (subject[ranSubjectIndx][2] == "n") {
 //var latin = myLatinSentence.presThirdSing();
-    var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIndx][0] + " " + irregComp[ranIrregCompIndx][1] + "  " + ablative[ranAblativeIndx][0];
+    var latin = myLatinSentence.subject + " " + linkingVerbSing[ranLinkingVerbSingIndx][0] + " " + irregComp[ranIrregCompIndx][1] + "  " + myLatinSentence.ablSing();
   }
 } else if (ranSentenceIndx == 3){
 
